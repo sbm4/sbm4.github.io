@@ -32,7 +32,7 @@ body {
   }
   
   .albums {
-    background-image: url(images/STATIC.jpg);
+    background-image: url(images/staticedited.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -40,4 +40,11 @@ body {
     width: 100vw;
     justify-content: space-around;
     display: flex;
+  }
+  .collabs {
+    background-image: url(images/collabs.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
   }
