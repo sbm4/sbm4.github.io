@@ -42,6 +42,13 @@ body {
     justify-content: space-around;
     display: flex;
   }
+
+  h1 {
+    font-family: 'Amiri', serif;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: left}
+
   .collabs {
     background-image: url(images/collabs.jpg);
     background-size: cover;
