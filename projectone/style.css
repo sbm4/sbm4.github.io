@@ -27,6 +27,7 @@ body {
   
   h1 {
     font-family: 'Work Sans', sans-serif;
+    color: white;
     text-align: center;
     padding-top: 40vh;
   }
@@ -43,6 +44,20 @@ body {
   }
   .collabs {
     background-image: url(images/collabs.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .about {
+    background-image: url(images/staticedited.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .videos {
+    background-image: url(images/videobackground.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
