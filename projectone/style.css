@@ -28,6 +28,8 @@ body {
   h1 {
     font-family: 'Work Sans', sans-serif;
     color: white;
+    font-size: 100px;
+    font-weight: bold;
     text-align: center;
     padding-top: 40vh;
   }
