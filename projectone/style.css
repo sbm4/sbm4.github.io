@@ -44,6 +44,13 @@ body {
     justify-content: space-around;
     display: flex;
   }
+  .albums h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+  }
+  .albums h3 {
+    font-family: 'Amiri', serif;
+  }
 
   .collabs {
     background-image: url(images/collabs.jpg);
