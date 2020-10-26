@@ -46,7 +46,7 @@ body {
   font-family: 'Amiri', serif;
   font-size: 45px;
   text-align: center;
-  color: white;
+  color: rgb(209, 208, 208);
 }
   
   .albums {
@@ -93,10 +93,10 @@ body {
   }
   .collabs p {
     font-family: 'Amiri', serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: black;
-    padding-top: 60vh;
+    padding-top: 10vh;
   }
   .collabs a:hover{
     color: orange;
@@ -114,6 +114,10 @@ body {
     color: white;
     text-align: center;
     font-size: 50px;
+  }
+  .about p {
+    font-family: 'Amiri', serif;
+    font-size: 16px;
   }
   .videos {
     background-image: url(images/videobackground.jpg);
