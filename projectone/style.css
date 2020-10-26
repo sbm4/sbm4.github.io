@@ -19,12 +19,20 @@ body {
     left: 0;
     right: 0;
   }
-  nav a:hover {
-    color: orange;
-  }
   nav a:link {
     color: white;
     text-decoration: none;
+  }
+  nav a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: orange;
+  }
+  nav a:active
+  {
+    color: white;
   }
   nav ul {
     font-family: 'Work Sans', sans-serif;
