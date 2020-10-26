@@ -46,3 +46,8 @@ nav {
 .inspiration {
   width: 400px;
 }
+
+.contact {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(20, 88, 20);
+}
