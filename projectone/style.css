@@ -20,11 +20,11 @@ body {
     right: 0;
   }
   nav a:link {
-    color: white;
+    color: rgb(209, 208, 208);
     text-decoration: none;
   }
   nav a:visited {
-    color: white;
+    color: rgb(209, 208, 208);
     text-decoration: none;
   }
   nav a:hover {
@@ -32,7 +32,7 @@ body {
   }
   nav a:active
   {
-    color: white;
+    color: rgb(209, 208, 208);
   }
   nav ul {
     font-family: 'Work Sans', sans-serif;
