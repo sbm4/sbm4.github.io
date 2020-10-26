@@ -53,7 +53,6 @@ body {
     position: relative;
     width: 100vw;
     justify-content: space-around;
-    padding-right: 20px;
     display: flex;
   }
   .albums h1 {
@@ -62,7 +61,6 @@ body {
     font-weight: bolder;
     font-size: 80px;
     text-align: left;
-    margin-top: 0;
     }
   .albums h2 {
     font-family: 'Work Sans', sans-serif;
@@ -106,6 +104,11 @@ body {
     width: 100vw;
     position: relative;
   }
+  .aboutsubtitle {
+    font-family: 'Amiri', serif;
+    color: white;
+    text-align: center;
+  }
   .videos {
     background-image: url(images/videobackground.jpg);
     background-size: cover;
@@ -116,11 +119,11 @@ body {
   .videos h2 {
     font-family: 'Amiri', serif;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 30px;
   }
   .videos h3 {
     font-family: 'Work Sans', sans-serif;
     color: rgb(112, 109, 109);
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
   }
