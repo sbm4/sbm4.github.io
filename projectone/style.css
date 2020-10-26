@@ -156,3 +156,16 @@ body {
     font-weight: normal;
     font-size: 18px;
   }
+  .videos a:link {
+    color: black;
+  }
+  .videos a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  .videos a:hover{
+    color: orange;
+  }
+  .videos a:active {
+    color: black;
+  }
