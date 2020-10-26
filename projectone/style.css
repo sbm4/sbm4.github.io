@@ -42,7 +42,7 @@ body {
   font-family: 'Amiri', serif;
   font-size: 45px;
   text-align: center;
-  color: rgb(179, 177, 177);
+  color: white;
 }
   
   .albums {
@@ -66,7 +66,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     color: rgb(112, 109, 109);
     font-weight: normal;
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
   }
   .albums h3 {
@@ -91,7 +91,8 @@ body {
     font-family: 'Amiri', serif;
     font-size: 50px;
     text-align: center;
-    padding-top: 20vh;
+    color: black;
+    padding-top: 60vh;
   }
   .collabs a:hover{
     color: orange;
@@ -108,6 +109,7 @@ body {
     font-family: 'Amiri', serif;
     color: white;
     text-align: center;
+    font-size: 50px;
   }
   .videos {
     background-image: url(images/videobackground.jpg);
