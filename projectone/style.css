@@ -137,6 +137,7 @@ body {
   }
   .aboutcontent {
   display: flex;
+  margin-top: 80px;
   }
   .aboutcontent article {
     flex: 1;
@@ -154,6 +155,9 @@ body {
   }
   .aboutcontent img {
     width: 100%;
+  }
+  .frankportrait {
+    margin-top: 80px;
   }
 
   .videos {
