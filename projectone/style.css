@@ -138,6 +138,7 @@ body {
   .aboutcontent {
   display: flex;
   margin-top: 80px;
+  position: relative;
   }
   .aboutcontent article {
     flex: 1;
@@ -148,6 +149,9 @@ body {
     color: white;
     text-align: center;
     font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: -80px;
   }
   .aboutcontent p{
     font-family: 'Amiri', serif;
