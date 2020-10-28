@@ -95,7 +95,7 @@ body {
     width: 100vw;
     justify-content: center;
     display: flex;
-    box-align: center
+    padding-top: 80px;
   }
   .albums h2 {
     font-family: 'Work Sans', sans-serif;
@@ -158,7 +158,7 @@ body {
   }
   .aboutcontent article {
     flex: 1;
-  padding: 20px;
+  padding: 5px;
   }
   .aboutcontent h2 {
     font-family: 'Amiri', serif;
@@ -167,7 +167,7 @@ body {
     font-size: 50px;
     position: relative;
     top: 0;
-    right: -80px;
+    right: -100px;
   }
   .aboutcontent p{
     font-family: 'Work Sans', sans-serif;
@@ -177,7 +177,6 @@ body {
     width: 100%;
   }
   .frankportrait {
-    margin-top: 15px;
     width: 50%;
   }
 
