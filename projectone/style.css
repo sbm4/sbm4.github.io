@@ -95,7 +95,6 @@ body {
     width: 100vw;
     justify-content: center;
     display: flex;
-margin: auto;
   }
   .albums h2 {
     font-family: 'Work Sans', sans-serif;
