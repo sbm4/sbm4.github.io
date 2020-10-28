@@ -152,7 +152,7 @@ body {
   }
   .aboutcontent {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   }
   .aboutcontent article {
@@ -166,7 +166,7 @@ body {
     font-size: 50px;
     position: relative;
     top: 0;
-    right: -70px;
+    right: -80px;
   }
   .aboutcontent p{
     font-family: 'Work Sans', sans-serif;
@@ -176,8 +176,8 @@ body {
     width: 100%;
   }
   .frankportrait {
-    margin-top: 25px;
-    width: 80%;
+    margin-top: 15px;
+    width: 50%;
   }
 
   .videos {
