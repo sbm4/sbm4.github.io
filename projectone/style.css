@@ -163,10 +163,10 @@ body {
     font-family: 'Amiri', serif;
     color: white;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
     top: 0;
-    right: -130px;
+    right: -150px;
   }
   .aboutcontent p{
     font-family: 'Work Sans', sans-serif;
@@ -176,7 +176,7 @@ body {
     width: 100%;
   }
   .frankportrait {
-    width: 200px;
+   position: relative;
   }
 
   .videos {
