@@ -136,7 +136,7 @@ body {
   }
   .aboutcontent {
   display: flex;
-  margin-top: 80px;
+  margin-top: 40px;
   position: relative;
   }
   .aboutcontent article {
@@ -150,17 +150,17 @@ body {
     font-size: 50px;
     position: relative;
     top: 0;
-    right: -60px;
+    right: -70px;
   }
   .aboutcontent p{
-    font-family: 'Amiri', serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
   }
   .aboutcontent img {
     width: 100%;
   }
   .frankportrait {
-    margin-top: 60px;
+    margin-top: 25px;
     width: 80%;
   }
 
