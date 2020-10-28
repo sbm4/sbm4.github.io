@@ -79,7 +79,7 @@ body {
     width: 100vw;
     position: relative;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
   }
   .albums h2 {
