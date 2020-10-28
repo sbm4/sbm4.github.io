@@ -63,6 +63,12 @@ body {
   margin: 0;
   padding: 12px 20px;
 }
+.menuicon {
+  display: inline-block;
+  min-width: 300px;
+  margin: 0;
+  padding: 20px 12px;
+}
   
   .albums {
     background-image: url(images/staticedited.jpg);
@@ -93,7 +99,7 @@ body {
   }
 
   .collabs {
-    background-image: url(images/collabs.jpg);
+    background-image: url(images/collabsbackgroundedited.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -104,7 +110,7 @@ body {
     font-size: 40px;
     text-align: center;
     color: black;
-    padding-top: -5vh;
+    padding-top: 10vh;
   }
   .collabs a:link {
     color: black;
