@@ -65,11 +65,25 @@ body {
 }
 .menuicon {
   font-family: 'Amiri', serif;
-  display: inline-block;
   font-size: 45px;
-  text-align: right;
+  display: inline-block;
+  min-width: 300px;
   margin: 0;
   padding: 20px 12px;
+}
+.menuicon a:link {
+  color: rgb(112, 109, 109);
+  text-decoration: none;
+}
+.menuicon a:visited {
+  color: rgb(112, 109, 109);
+  text-decoration: none;
+}
+.menuicon a:hover{
+  color: white;
+}
+.menuicon a:active {
+  color: rgb(112, 109, 109);
 }
   
   .albums {
