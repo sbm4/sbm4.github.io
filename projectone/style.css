@@ -64,10 +64,12 @@ body {
   padding: 12px 20px;
 }
 .menuicon {
+  font-family: 'Amiri', serif;
   display: inline-block;
-  width: 100%;
+  font-size: 45px;
+  text-align: right;
   margin: 0;
-  padding: 10px 12px;
+  padding: 20px 12px;
 }
   
   .albums {
