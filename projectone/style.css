@@ -91,7 +91,7 @@ body {
 }
   
   .albums {
-    background-image: url(images/staticedited.jpg);
+    background-image: url(images/albumsbackground2.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -111,6 +111,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     text-align: left;
+    padding-left: 80px;
   }
   .albums h3 {
     font-family: 'Amiri', serif;
