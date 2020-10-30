@@ -100,12 +100,17 @@ body {
     justify-content: space-around;
     display: flex;
   }
+  .albums div {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 200px;
+  }
   .albums h2 {
     font-family: 'Work Sans', sans-serif;
     color: rgb(112, 109, 109);
     font-weight: normal;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
   }
   .albums h3 {
     font-family: 'Amiri', serif;
