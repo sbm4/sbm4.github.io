@@ -62,6 +62,7 @@ body {
   color: black;
   margin: 0;
   padding: 12px 20px;
+  position: absolute;
 }
 .menuicon {
   font-family: 'Amiri', serif;
@@ -153,6 +154,8 @@ body {
   .aboutcontent {
   display: flex;
   position: relative;
+  padding-left: 50px;
+  padding-top: 80px;
   }
   .aboutcontent article {
     flex: 1;
@@ -160,22 +163,29 @@ body {
   }
   .aboutcontent h2 {
     font-family: 'Amiri', serif;
-    color: white;
+    color: rgb(112, 109, 109);
     text-align: right;
-    font-size: 55px;
+    font-size: 52px;
     position: relative;
     top: 0;
-    right: -130px;
+    right: -300px;
+    margin-bottom: 5px;
+    padding-top: 5px;
   }
   .aboutcontent p{
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+    padding-top: 10px;
   }
   .aboutcontent img {
     width: 100%;
+    padding-top: 40px;
   }
-  .frankportrait {
-   width: 50%;
+  .frankportrait img {
+    padding-top: 65px;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .videos {
