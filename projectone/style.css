@@ -97,7 +97,6 @@ body {
     width: 100vw;
     position: relative;
     width: 100vw;
-    justify-content: space-around;
     display: flex;
   }
   .albums div {
