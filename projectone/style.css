@@ -79,11 +79,6 @@ body {
 .menuicon a:link {
   color: rgb(112, 109, 109);
   text-decoration: none;
-  min-width: 1425px;
-  margin: 0;
-  padding-top: 15px;
-  padding-right: 5px;
-  position: absolute;
 }
 .menuicon a:visited {
   color: rgb(112, 109, 109);
