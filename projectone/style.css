@@ -136,21 +136,21 @@ body {
     font-size: 40px;
     text-align: center;
     color: white;
-    padding-top: 25vh;
+    padding-top: 45vh;
   }
   .collabs a:link {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .collabs a:visited {
-    color: black;
+    color: white;
     text-decoration: none;
   }
   .collabs a:hover{
     color: orange;
   }
   .collabs a:active {
-    color: black;
+    color: white;
   }
 
   .about {
