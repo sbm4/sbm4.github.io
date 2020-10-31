@@ -17,7 +17,7 @@ body {
     position: absolute;
     bottom: 40px;
     left: 0;
-    right: 0;
+    right: 40px;
   }
   nav a:link {
     color: rgb(209, 208, 208);
