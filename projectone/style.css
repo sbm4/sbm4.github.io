@@ -168,7 +168,7 @@ body {
   }
   .aboutcontent article {
     flex: 1;
-  padding: 45px;
+  padding: 30px;
   }
   .aboutcontent h2 {
     font-family: 'Amiri', serif;
@@ -179,12 +179,12 @@ body {
     top: 0;
     right: -300px;
     margin-bottom: 5px;
-    padding-top: 5px;
+    padding-top: 25px;
   }
   .aboutcontent p{
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    padding-top: 10px;
+    padding-top: 27px;
   }
   .aboutcontent img {
     width: 100%;
