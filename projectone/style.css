@@ -198,7 +198,7 @@ body {
   }
 
   .videos {
-    background-image: url(images/videobackground.jpg);
+    background-image: url(images/videobackground2.2.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -206,10 +206,11 @@ body {
   }
   .videocontent {
     display: flex;
-    margin-top: 20px;
     position: relative;
+    padding-top: 130px;
+    padding-right: 100px;
     }
-    .videocontent article {
+  .videocontent article {
       flex: 1;
     padding: 20px;
     }
@@ -217,12 +218,14 @@ body {
     font-family: 'Amiri', serif;
     font-weight: normal;
     font-size: 30px;
+    padding-left: 100px;
   }
   .videocontent h3 {
     font-family: 'Work Sans', sans-serif;
     color: rgb(112, 109, 109);
     font-weight: normal;
     font-size: 18px;
+    padding-left: 100px;
   }
   .videocontent a:link {
     color: black;
@@ -238,8 +241,8 @@ body {
   .videocontent a:active {
     color: black;
   }
-  .videogif {
-    margin-top: 25px;
-    padding-top: 60px;
+  .videogif iframe{
+    padding-top: 160px;
+    padding-left: -80px;
     width: 100%;
   }
