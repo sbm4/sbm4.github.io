@@ -233,7 +233,7 @@ body {
   .videocontent {
     display: flex;
     position: relative;
-    padding-top: 130px;
+    padding-top: 45px;
     padding-right: 100px;
     }
   .videocontent article {
