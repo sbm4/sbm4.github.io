@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: rgb(191, 177, 215);
+  }
+  
+  header {
+    background-image: url(images/tarotcards.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+  }
+  h1 {
+    color: white;
+    font-weight: bolder;
+  }
+  h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 95px;
+    text-align: center;
+    color: rgb(252, 253, 193);
+  }
+
+  h3 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
+      text-align: center;
+      font-family: 'Poiret One', cursive;
+      font-size: 18px;
+  }
+  main,
+  header h1,
+  nav div {
+    width: 85%;
+    margin: auto;
+  }
+  header {
+    padding: 40px 0;
+  }
+  nav a {
+    padding-right: 20px;
+  }
+  nav a:hover {
+    color: rgb(221, 179, 221);
+  }
+  nav {
+    background-color: rgb(252, 253, 193);
+    padding: 12px;
+  }
+  
