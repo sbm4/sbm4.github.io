@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;400&display=swap');
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -44,10 +45,13 @@ body {
     padding-right: 20px;
   }
   nav a:hover {
-    color: rgb(221, 179, 221);
+    color: rgb(191, 177, 215);
   }
   nav {
     background-color: rgb(252, 253, 193);
     padding: 12px;
+  }
+  .about {
+      background-color: tomato;
   }
   
