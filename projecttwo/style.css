@@ -51,7 +51,49 @@ body {
     background-color: rgb(252, 253, 193);
     padding: 12px;
   }
+  .open {
+    font-size: 28px;
+  }
   .about {
-      background-color: tomato;
+      background-color: rgb(255, 184, 188);
+      background-size: cover;
+  }
+  .about h1{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 72px;
+  }
+  .about p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+  }
+  .content2 {
+    font-weight: normal;
+    color: rgb(252, 253, 193);
+  }
+  .readings {
+    background-color: rgb(190, 226, 255);
+    background-size: cover;
+  }
+  .readings h1 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 72px;
+  }
+  .readings h2 {
+    font-size: 40px;
+  }
+  .readinginfo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+  }
+  .shopping {
+    background-color: rgb(255, 184, 95);
+    background-size: cover;
+  }
+  .shopping h1 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 72px;
   }
   
