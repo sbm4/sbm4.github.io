@@ -82,7 +82,7 @@ body {
   }
   .logo img {
     width: 200px;
-    padding-left: 90px;
+    padding-left: 120px;
   }
   .about {
       background-color: rgb(255, 184, 188);
@@ -99,7 +99,7 @@ body {
     font-weight: lighter;
   }
   .about img {
-    width: 300px;
+    width: 440px;
   }
   .socials img{
     width: 40px;
@@ -128,14 +128,42 @@ body {
     padding-right: 20px;
   }
   .readinginfo img {
-    width: 300px;
+    width: 480px;
+    padding-bottom: 15px;
   }
   .contactform {
     box-sizing: border-box;
     border-style: solid;
+    border-width: 3px;
     border-color: white;
     border-radius: 10%;
+    padding-bottom: 40px;
   }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+    margin: 4px 200px;
+    cursor: pointer;
+  }
+
+  input[type=text-area] {
+  width: 50%;
+  height: 130px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=text] {
+  margin: 0;
+  box-sizing: border-box;
+}
 
   .shopping {
     background-color: rgb(255, 184, 95);
