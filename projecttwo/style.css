@@ -24,6 +24,7 @@ body {
     font-size: 80px;
     text-align: center;
     color: rgb(252, 253, 193);
+    padding-top: 50px;
   }
 
   h3 {
@@ -44,29 +45,36 @@ body {
   header {
     padding: 40px 0;
   }
-  nav a {
-    padding-right: 15px;
-    padding-left: 15px;
-    box-sizing: border-box;
-    border-style: solid;
-    background-color: rgb(255, 184, 188);
-    border-color: rgb(255, 184, 188);
-    
+  nav {
+    position: absolute;
+    background-color: rgb(252, 253, 193);
+    padding: 5px;
+    right: 0px;
+    left: 0px;
+    padding-right: 50px;
   }
   nav a:link {
-    color: black;
+    color: rgb(209, 208, 208);
     text-decoration: none;
   }
   nav a:visited {
-    color:black;
+    color: rgb(209, 208, 208);
     text-decoration: none;
   }
   nav a:hover {
-    color: rgb(252, 253, 193);
+    color: orange;
   }
-  nav {
-    background-color: rgb(252, 253, 193);
-    padding: 12px;
+  nav a:active
+  {
+    color: rgb(209, 208, 208);
+  }
+  nav ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
   }
 
   .open {
@@ -84,6 +92,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 72px;
+    padding-top: 100px;
   }
   .about p {
     font-family: 'Roboto', sans-serif;
@@ -107,6 +116,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 72px;
+    padding-top: 100px;
   }
   .readings h2 {
     font-size: 40px;
@@ -135,6 +145,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 72px;
+    padding-top: 100px;
   }
   .shopping img{
     width: 200px;
