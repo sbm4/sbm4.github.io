@@ -193,6 +193,12 @@ input[type=text] {
   }
 
   @media (min-width: 768px) {
+
+    .readinginfo img {
+      width: 725px;
+      padding-bottom: 15px;
+    }
+
     .shopping img {
       width: 200px;
     }
@@ -204,6 +210,55 @@ input[type=text] {
     .column {
       display: flex;
     }
+  }
+
+  @media (min-width: 1440px) {
+
+    .readings {
+      position: relative;
+    }
+    .readingscontent {
+      display: flex;
+      position: relative;
+    }
+    .readinginfo {
+      flex: 50%;
+    }
+    .readings h2 {
+      flex: 50%;
+    }
+    .contactform {
+      display: flex;
+      width: 45%;
+      margin: 0;
+      padding-right: 80px;
+      padding-top: 200px;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+      background-color: black;
+      color: white;
+      padding: 10px 35px;
+      text-decoration: none;
+      margin: 4px 200px;
+      cursor: pointer;
+    }
+  
+    input[type=text-area] {
+    width: 50%;
+    height: 130px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  
+  input[type=text] {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   }
 
 
