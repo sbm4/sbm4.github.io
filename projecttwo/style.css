@@ -111,6 +111,7 @@ body {
     width: 40px;
     padding-left: 90px;
   }
+
   .content2 {
     font-weight: normal;
     color: rgb(252, 253, 193);
@@ -195,7 +196,7 @@ input[type=text] {
   @media (min-width: 768px) {
 
     .readinginfo img {
-      width: 725px;
+      width: 400px;
       padding-bottom: 15px;
     }
 
@@ -210,10 +211,7 @@ input[type=text] {
     .column {
       display: flex;
     }
-  }
-
-  @media (min-width: 1440px) {
-
+    
     .readings {
       position: relative;
     }
@@ -226,20 +224,89 @@ input[type=text] {
     }
     .readings h2 {
       flex: 50%;
+      align-items: center;
+      position: relative;
     }
     .contactform {
+      width: 35%;
+      padding-top: 200px;
+      position: relative;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      margin: 4px 200px;
+      cursor: pointer;
+    }
+  
+    input[type=text-area] {
+    width: 50%;
+    height: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  
+  input[type=text] {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  }
+
+  @media (min-width: 1440px) {
+
+    .logo {
+      padding-left: 390px;
+    }
+
+    .socials {
+      padding-left: 300px;
+    }
+
+    .about p {
+      padding-left: 240px;
+      padding-right: 240px;
+    }
+
+    .readings {
+      position: relative;
+    }
+    .readingscontent {
       display: flex;
+      position: relative;
+    }
+    .readinginfo {
+      flex: 50%;
+    }
+    .readinginfo img {
+      width: 725px;
+      padding-bottom: 15px;
+    }
+    .readings h2 {
+      flex: 50%;
+      padding-left: 15px;
+      align-items: center;
+      margin: 0;
+      position: relative;
+    }
+    .contactform {
       width: 45%;
       margin: 0;
-      padding-right: 80px;
-      padding-top: 200px;
+      padding-right: 30px;
+      padding-left: 30px;
+      padding-top: 50px;
+      position: relative;
     }
     input[type=button], input[type=submit], input[type=reset] {
       background-color: black;
       color: white;
       padding: 10px 35px;
       text-decoration: none;
-      margin: 4px 200px;
+      margin: 4px 230px;
       cursor: pointer;
     }
   
