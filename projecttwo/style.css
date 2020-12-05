@@ -201,18 +201,6 @@ body {
   border: 1px solid black;
 }
 
-.readingsthankyou p {
-  text-align: center;
-  font-family: 'Poiret One', cursive;
-  font-size: 24px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.readingsthankyou img {
-  width: 200px;
-  padding-left: 150px;
-}
-
   .shopping {
     background-color: rgb(255, 184, 95);
     background-size: cover;
@@ -421,13 +409,6 @@ body {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
-  }
-  .readingsthankyou p {
-    font-size: 45px;
-  }
-  .readingsthankyou img {
-    width: 500px;
-    padding-left: 480px;
   }
 
   .shopping img {
