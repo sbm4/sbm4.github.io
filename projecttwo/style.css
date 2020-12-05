@@ -150,7 +150,7 @@ body {
   .readings h2 {
     font-size: 60px;
   }
-  .readinginfo {
+  .readinginfo p {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     padding-left: 20px;
@@ -159,6 +159,8 @@ body {
   .readinginfo img {
     width: 480px;
     padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .contactform {
     box-sizing: border-box;
@@ -197,6 +199,18 @@ body {
   input[type=email] {
   box-sizing: border-box;
   border: 1px solid black;
+}
+
+.readingsthankyou p {
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.readingsthankyou img {
+  width: 200px;
+  padding-left: 150px;
 }
 
   .shopping {
@@ -365,6 +379,9 @@ body {
     .readinginfo {
       flex: 50%;
     }
+    .readinginfo p {
+      text-align: left;
+    }
     .readinginfo img {
       width: 725px;
       padding-bottom: 15px;
@@ -404,6 +421,13 @@ body {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+  }
+  .readingsthankyou p {
+    font-size: 45px;
+  }
+  .readingsthankyou img {
+    width: 500px;
+    padding-left: 480px;
   }
 
   .shopping img {
