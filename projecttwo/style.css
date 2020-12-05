@@ -122,8 +122,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
   }
-  .about img {
-    width: 440px;
+  .contentclear-box {
+    padding-left: 20px;
   }
   .socials {
     display: flex;
@@ -347,12 +347,15 @@ body {
     }
 
     .socials {
-      padding-left: 300px;
+      padding-left: 240px;
     }
 
     .about p {
       padding-left: 240px;
       padding-right: 240px;
+    }
+    .contentclear-box {
+      padding-left: 400px;
     }
 
     .readings {
