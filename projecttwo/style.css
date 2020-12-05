@@ -108,6 +108,20 @@ body {
     width: 200px;
     padding-left: 120px;
   }
+  #logo {
+    animation: logo 2s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+    }
+  
+    @keyframes logo {
+      from {
+  transform: translateY(0%);
+      }
+      from {
+  transform: translateY(20%);
+      }
+  }
   .about {
       background-color: rgb(255, 184, 188);
       background-size: cover;
